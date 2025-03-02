@@ -1,3 +1,5 @@
+.PHONY: build
+
 build:
 	tools/git-sync-deps
 	bin/gn gen out/debug
